@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiShellNavigationTest.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiShellNavigationTest"
+    xmlns:pages="clr-namespace:MauiShellNavigationTest.Pages"
+    Title="MauiShellNavigationTest"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate pages:LoginPage}"
+            IsVisible="{Binding IsLoggedIn, Converter={x:Static local:Converters.InvertBool}}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="List"
+            ContentTemplate="{DataTemplate pages:AppointmentsMainPage}"
+            IsVisible="{Binding IsLoggedIn}"
+            Route="AppointmentsListPage" />
+
+
+    </TabBar>
+
+</Shell>

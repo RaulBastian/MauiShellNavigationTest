@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiShellNavigationTest", "MauiShellNavigationTest.csproj", "{63304A52-09CF-49BA-A6A7-CB2C812AE755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63304A52-09CF-49BA-A6A7-CB2C812AE755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63304A52-09CF-49BA-A6A7-CB2C812AE755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63304A52-09CF-49BA-A6A7-CB2C812AE755}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{63304A52-09CF-49BA-A6A7-CB2C812AE755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63304A52-09CF-49BA-A6A7-CB2C812AE755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63304A52-09CF-49BA-A6A7-CB2C812AE755}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4375361E-91C3-405C-B852-0900FEF17CFD}
+	EndGlobalSection
+EndGlobal

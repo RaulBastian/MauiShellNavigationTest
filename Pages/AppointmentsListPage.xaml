@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<localPages:BasePage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiShellNavigationTest.Pages.AppointmentsListPage"
+             xmlns:localPages="clr-namespace:MauiShellNavigationTest.Pages"
+             xmlns:vm="clr-namespace:MauiShellNavigationTest.ViewModel"
+             x:TypeArguments="vm:AppointmentsListVM">
+    <VerticalStackLayout>
+        <Label 
+            Text="Appointments list"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</localPages:BasePage>

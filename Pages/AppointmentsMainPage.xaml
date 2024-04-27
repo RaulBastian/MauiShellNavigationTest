@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<localPages:BasePage
+    x:Class="MauiShellNavigationTest.Pages.AppointmentsMainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:localPages="clr-namespace:MauiShellNavigationTest.Pages"
+    xmlns:vm="clr-namespace:MauiShellNavigationTest.ViewModel"
+    x:TypeArguments="vm:AppointmentMainPageVM">
+    <VerticalStackLayout>
+        <Button Clicked="Button_Clicked" Text="Today" />
+        <Button Clicked="Button_Clicked" Text="Other" />
+    </VerticalStackLayout>
+</localPages:BasePage>
